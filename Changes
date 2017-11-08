@@ -1,5 +1,7 @@
 Revision history for perl distribution Mojo-Redis2
 
+- Use monkey_patch method from Mojo::Util instead of Mojo::Base
+
 0.27 2017-10-09T12:50:29+0200
  - Add new methods: bitcount, bitop bitpos, hincrbyfloat, incrbyfloat, pexpire,
    pexpireat, psetex, pttl, zlexcount, zrangebylex, zremrangebylex and zrevrangebylex. #25
